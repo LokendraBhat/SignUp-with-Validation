@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lag="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="signup learn">
+    <meta name="description" content="Hello this is Lokendra">
+    <meta name="author" content="Lokendra Bhat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpHere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="div1">
+        <form action="#" id="upForm" onsubmit="return doSubmit()">
+            <h2><q>SignUp Here</q></h2>
+            <label for="fname" class="let">Full Name:</label>
+            <input type="text" name="fname" id="fname" class="input_sec">
+            <br>
+            <label for="email" class="let">Email:</label>
+            <input type="email" name="Email" id="email" class="input_sec">
+            <br>
+            <label for="psw" class="let">Password:</label>
+            <input type="password" name="password" id="psw" class="input_sec">
+            <br>
+            <label for="re-psw" class="let">Repeat Password:</label>
+            <input type="password" name="re-password" id="re-psw" class="input_sec">
+            <hr>
+
+            <input type="checkbox" id="check">
+            <label for="check">Accept all <a href="#" name="term-condition">term and conditions</a>.</label>
+            <br>
+            <button type="button" id ="cancelbtn" name="cancel" onclick="return doCancel()">Cancel</button>
+            <button type="submit" name="submit" id="submitbtn">Submit</button>
+        </form>
+    </div>
+    <script src="sign.js"></script>
+
+</body>
+
+</html>
